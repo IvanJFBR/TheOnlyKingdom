@@ -1,0 +1,19 @@
+# RPG Maker MZ / MV
+save/
+*.rpgsave
+*.rmmzsave
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Node / JS
+node_modules/
+package-lock.json
+
+# IDEs / Editor
+.vscode/
+.idea/
