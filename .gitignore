@@ -18,3 +18,4 @@ package-lock.json
 .vscode/
 .idea/
 *.tiled-session
+!Tiled/*.tiled-session

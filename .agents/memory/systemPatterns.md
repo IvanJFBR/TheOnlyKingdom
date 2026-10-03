@@ -30,3 +30,20 @@
 ## 6. Servidores MCP
 - `tiled-ai`: Comunicação via ponte local na porta padrão. Conexão no Tiled via menu **Map → Tiled AI: Connect**.
 - `rpgmaker-mz`: Servidor stdio localizado em `C:\Users\Ivan\OneDrive\Documentos\RMMZ\Usefulls\rpgmaker-mz-mcp\dist\index.js` para controle de banco de dados, mapas, eventos e variáveis.
+
+## 7. Convenção de Camadas e Pastas (Group Layers) no Tiled
+- As camadas do mapa devem ser agrupadas em 4 pastas principais (tipo `group`):
+  1. **`Below`**: Camadas de terreno/chão abaixo dos personagens. Propriedade: `zIndex: 1` (int). Camadas filhas herdam esse valor.
+  2. **`Same`**: Elementos na mesma altura dos personagens (troncos, mesas, muros). Propriedade: `zIndex: 3` (int).
+  3. **`Above`**: Elementos acima dos personagens (copas de árvores, telhados). Propriedade: `zIndex: 4` (int).
+  4. **`System`**: Camadas de sistema e metadados. Não possui `zIndex`. Contém as propriedades padrão:
+     - `collision`: "tile-base" (string)
+     - `flags`: "tile-base" (string)
+     - `hiddenInGame`: true (bool)
+     - `hideOnLevel`: 1 (int)
+     - `level`: 0 (int)
+     - `regionId`: "tile-base" (string)
+     - `terrainTag`: "tile-base" (string)
+     - `toLevel`: "tile-base" (string)
+- O VisuStella MZ (`VisuMZ_5_TiledMZ.js`) extrai camadas recursivamente (`DataManager.recursiveExtractLayers`) e repassa as propriedades do grupo para as camadas filhas que não possuírem sobreposição individual.
+

@@ -1,0 +1,44 @@
+{
+    "activeFile": "../maps/map1.json",
+    "expandedProjectPaths": [
+        "../maps"
+    ],
+    "exportAsImage.useCurrentScale": false,
+    "file.lastUsedOpenFilter": "Todos os Ficheiros (*)",
+    "fileStates": {
+        "../maps/map1.json": {
+            "scale": 1.15,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 408.0,
+                "y": 312.0
+            }
+        },
+        "../maps/Outside_A2.json": {
+            "scaleInDock": 1
+        },
+        "../maps/Outside_A2_Tiled.json": {
+            "scaleInDock": 1
+        },
+        "../maps/Outside_A2_Terrain1.json": {
+            "scaleInDock": 1
+        }
+    },
+    "last.externalTilesetPath": "../maps",
+    "last.imagePath": "../img/tilesets",
+    "map.height": 13,
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 48,
+    "map.tileWidth": 48,
+    "map.width": 17,
+    "openFiles": [
+        "../maps/map1.json"
+    ],
+    "project": "TheOnlyKingdomTiledScope.tiled-project",
+    "property.type": "int",
+    "recentFiles": [
+        "../maps/map1.json"
+    ],
+    "resizeMap.removeObjects": true,
+    "tileset.lastUsedFormat": "json"
+}
