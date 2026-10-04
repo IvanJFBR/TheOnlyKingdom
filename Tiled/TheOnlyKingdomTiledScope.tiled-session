@@ -1,27 +1,27 @@
 {
-    "activeFile": "../maps/map1.json",
+    "activeFile": "C:/Users/Vitoso/Documents/RPG Ivan/The Only Kingdom Clone/TheOnlyKingdom/maps/map1.json",
     "expandedProjectPaths": [
-        "../maps"
+        "C:/Users/Vitoso/Documents/RPG Ivan/The Only Kingdom Clone/TheOnlyKingdom/maps"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "Todos os Ficheiros (*)",
     "fileStates": {
-        "../maps/map1.json": {
+        "C:/Users/Vitoso/Documents/RPG Ivan/The Only Kingdom Clone/TheOnlyKingdom/maps/Outside_A2.json": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Vitoso/Documents/RPG Ivan/The Only Kingdom Clone/TheOnlyKingdom/maps/Outside_A2_Terrain1.json": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Vitoso/Documents/RPG Ivan/The Only Kingdom Clone/TheOnlyKingdom/maps/Outside_A2_Tiled.json": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Vitoso/Documents/RPG Ivan/The Only Kingdom Clone/TheOnlyKingdom/maps/map1.json": {
             "scale": 1.15,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 408.0,
-                "y": 312.0
+                "x": 408,
+                "y": 312
             }
-        },
-        "../maps/Outside_A2.json": {
-            "scaleInDock": 1
-        },
-        "../maps/Outside_A2_Tiled.json": {
-            "scaleInDock": 1
-        },
-        "../maps/Outside_A2_Terrain1.json": {
-            "scaleInDock": 1
         }
     },
     "last.externalTilesetPath": "../maps",
@@ -32,12 +32,12 @@
     "map.tileWidth": 48,
     "map.width": 17,
     "openFiles": [
-        "../maps/map1.json"
+        "C:/Users/Vitoso/Documents/RPG Ivan/The Only Kingdom Clone/TheOnlyKingdom/maps/map1.json"
     ],
     "project": "TheOnlyKingdomTiledScope.tiled-project",
     "property.type": "int",
     "recentFiles": [
-        "../maps/map1.json"
+        "C:/Users/Vitoso/Documents/RPG Ivan/The Only Kingdom Clone/TheOnlyKingdom/maps/map1.json"
     ],
     "resizeMap.removeObjects": true,
     "tileset.lastUsedFormat": "json"
